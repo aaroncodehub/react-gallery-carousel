@@ -8,7 +8,7 @@ import "./Carousel.css";
 
 class Carousel extends React.Component {
   render() {
-    var settings = {
+    const settings = {
       dots: true,
       infinite: true,
       speed: 500,
